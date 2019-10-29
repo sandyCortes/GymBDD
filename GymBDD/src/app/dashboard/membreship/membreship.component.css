@@ -1,0 +1,22 @@
+.padding-content {
+    width: 100%;
+}
+
+.content-Table {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+div .table1 {
+    width: 60%;
+}
+
+div .table2 {
+    width: 25%;
+    height: 20%;
+}
+
+.content-Table .content-t1{
+    padding-left: 29px;
+}

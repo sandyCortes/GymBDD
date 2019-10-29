@@ -1,0 +1,16 @@
+<!--START: Menu lateral -->
+<div  class="wrapper">
+    <div class="sidebar">
+        <img src="./../../../assets/img/logoGym.png">
+        <ul>
+            <li><a [routerLink]="['user']"><i class="fas fa-user"></i> User</a></li>
+            <li><a [routerLink]="['card']"><i class="far fa-credit-card"></i> Card</a></li>
+            <li><a [routerLink]="['coach']"><i class="fas fa-dumbbell"></i> Coach</a></li>
+            <li><a [routerLink]="['activity']"><i class="fas fa-running"></i> Activity</a></li>
+            <li><a [routerLink]="['store']" ><i class="fas fa-store"></i> Store</a></li>
+        </ul>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
+<!--END: Menu lateral -->
